@@ -10,15 +10,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
   <style>
     
-    body {font-family: "Salsa", cursive;}
+    body {font-family: "Salsa", cursive;
+          color: aliceblue;
+          background-size: cover;
+          text-align: center; }
 
+    div {margin-top: 24px;
+    }
     table {
       align-items: center;
       margin: 0 auto;
+      margin-top: 60px;
       text-align: center;
       justify-items: normal;
-      width: 300px;
-      height:300px;
+      width: 480px;
+      height:320px;
+      border-width: 5px;
+      border-color: aqua;
     }
 
     td {
@@ -26,19 +34,23 @@
       height: 100px;
       width: 100px;
       font-family: "Salsa", cursive;
+      font-size: 50px;
     }
 
     td:hover{
       height: 100px;
       width: 100px;
-      background-color: gray;
+      background-color: rgb(132, 120, 141);
     }
   </style>
 </head>
 
-<body>
-  <h1>ola mundo!</h1>
-  <h2>segunda linha</h2>
+<body background="retrowave.jpg">
+
+  <div>
+    <h1>JOGO DA VELHA PICA</h1>
+    <h2>BEM-VINDOS!</h2>
+  </div>
   <table border="1">
     <tr>
       <td onclick="marcar(this)"></td>
